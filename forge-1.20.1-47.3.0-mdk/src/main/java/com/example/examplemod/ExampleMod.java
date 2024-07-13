@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.example.examplemod.block.BlockMod;
 import com.example.examplemod.item.ItemMod;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -45,6 +46,7 @@ public class ExampleMod
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
+    /*
     // Creates a new Block with the id "examplemod:example_block", combining the namespace and path
     public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
     // Creates a new BlockItem with the id "examplemod:example_block", combining the namespace and path
@@ -60,16 +62,19 @@ public class ExampleMod
             .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
-            }).build());
+            }).build());*/
 
     public ExampleMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ItemMod.register(modEventBus);
-
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        //my registries
+        ItemMod.register(modEventBus);
+        BlockMod.register(modEventBus);
+        TabMod.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
@@ -104,10 +109,8 @@ public class ExampleMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-            event.accept(EXAMPLE_BLOCK_ITEM);
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-            event.accept(ItemMod.CHINESIUM_DUST);
+       /*if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+            event.accept(ItemMod.CHINESIUM_DUST);*/
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

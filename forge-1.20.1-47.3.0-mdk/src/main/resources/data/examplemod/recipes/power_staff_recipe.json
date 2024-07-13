@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "y",
+    "x",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:stick"
+    },
+    "y": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "examplemod:power_staff"
+  }
+}

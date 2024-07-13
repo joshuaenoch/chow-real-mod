@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "examplemod:block/shifted_oak_top",
+    "side": "examplemod:block/shifted_oak_side"
+  }
+}

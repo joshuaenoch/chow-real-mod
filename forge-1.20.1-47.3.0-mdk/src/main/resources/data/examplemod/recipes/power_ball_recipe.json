@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xzx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "examplemod:chinesium_dust"
+    },
+    "y": {
+      "item": "minecraft:glass"
+    },
+    "z": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "examplemod:power_ball"
+  }
+}

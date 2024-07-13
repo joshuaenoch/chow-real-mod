@@ -1,3 +1,13 @@
 {
-  "item.examplemod.chinesium_dust": "Chinesium Dust"
+  "item.examplemod.chinesium_dust": "Chinesium Dust",
+  "item.examplemod.power_staff":  "Uncharged Staff",
+  "item.examplemod.power_ball":  "Uncharged Ball",
+
+  "item.examplemod.teleportation_orb": "Teleportation Orb",
+  "item.examplemod.lightning_orb": "Lightning Orb",
+  "item.examplemod.fire_orb": "Fire Orb",
+
+  "block.examplemod.shifted_oak": "Shifted Oak Log",
+
+  "creativetab.example_tab": "Example Tab"
 }
