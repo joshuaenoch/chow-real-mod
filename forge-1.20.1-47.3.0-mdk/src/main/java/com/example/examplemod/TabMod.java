@@ -21,10 +21,15 @@ public class TabMod {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ItemMod.CHINESIUM_DUST.get());
                         pOutput.accept(ItemMod.POWER_STAFF.get());
+
                         pOutput.accept(ItemMod.POWER_BALL.get());
                         pOutput.accept(ItemMod.TELEPORTATION_ORB.get());
                         pOutput.accept(ItemMod.FIRE_ORB.get());
-                        pOutput.accept(ItemMod.LIGHTNING_ORB.get());
+                        pOutput.accept(ItemMod.SPEED_ORB.get());
+
+                        pOutput.accept(ItemMod.LIGHTNING_FUR.get());
+                        pOutput.accept(ItemMod.FIRE_ESSENCE.get());
+                        pOutput.accept(ItemMod.GUITAR_STRING.get());
 
                         pOutput.accept(BlockMod.SHIFTED_OAK.get());
 

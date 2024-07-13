@@ -1,11 +1,16 @@
 {
   "item.examplemod.chinesium_dust": "Chinesium Dust",
   "item.examplemod.power_staff":  "Uncharged Staff",
-  "item.examplemod.power_ball":  "Uncharged Ball",
 
+  "item.examplemod.power_ball":  "Uncharged Orb",
   "item.examplemod.teleportation_orb": "Teleportation Orb",
-  "item.examplemod.lightning_orb": "Lightning Orb",
+  "item.examplemod.speed_orb": "Speed Orb",
   "item.examplemod.fire_orb": "Fire Orb",
+
+  "item.examplemod.lightning_fur": "Lightning Fur",
+  "item.examplemod.fire_essence": "Fire Essence",
+  "item.examplemod.guitar_string": "Guitar String",
+
 
   "block.examplemod.shifted_oak": "Shifted Oak Log",
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "examplemod:power_ball"
+    },
+    {
+      "item": "examplemod:fire_essence"
+    }
+  ],
+  "result": {
+    "item": "examplemod:fire_orb",
+    "count": 1
+  }
+}

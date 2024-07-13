@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "examplemod:power_ball"
+    },
+    {
+      "item": "examplemod:lightning_fur"
+    }
+  ],
+  "result": {
+    "item": "examplemod:speed_orb",
+    "count": 1
+  }
+}

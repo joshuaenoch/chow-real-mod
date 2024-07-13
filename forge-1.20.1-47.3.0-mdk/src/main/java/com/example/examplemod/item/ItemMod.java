@@ -21,9 +21,13 @@ public class ItemMod {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FIRE_ORB = ITEMS.register("fire_orb",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> LIGHTNING_ORB = ITEMS.register("lightning_orb",
+    public static final RegistryObject<Item> SPEED_ORB = ITEMS.register("speed_orb",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LIGHTNING_FUR = ITEMS.register("lightning_fur",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FIRE_ESSENCE = ITEMS.register("fire_essence",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GUITAR_STRING = ITEMS.register("guitar_string",
             () -> new Item(new Item.Properties()));
 
 
