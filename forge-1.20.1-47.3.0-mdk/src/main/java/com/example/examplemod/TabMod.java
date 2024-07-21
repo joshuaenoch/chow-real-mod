@@ -20,12 +20,16 @@ public class TabMod {
                     .title(Component.translatable("creativetab.example_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ItemMod.CHINESIUM_DUST.get());
+
                         pOutput.accept(ItemMod.POWER_STAFF.get());
+                        pOutput.accept(ItemMod.TELEPORTATION_STAFF.get());
+                        pOutput.accept(ItemMod.FIRE_STAFF.get());
+                        //pOutput.accept(ItemMod.SPEED_STAFF.get());
 
                         pOutput.accept(ItemMod.POWER_BALL.get());
                         pOutput.accept(ItemMod.TELEPORTATION_ORB.get());
                         pOutput.accept(ItemMod.FIRE_ORB.get());
-                        pOutput.accept(ItemMod.SPEED_ORB.get());
+                        //pOutput.accept(ItemMod.SPEED_ORB.get());
 
                         pOutput.accept(ItemMod.LIGHTNING_FUR.get());
                         pOutput.accept(ItemMod.FIRE_ESSENCE.get());

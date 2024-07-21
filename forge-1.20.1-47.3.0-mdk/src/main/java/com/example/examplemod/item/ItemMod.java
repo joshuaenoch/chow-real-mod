@@ -2,6 +2,7 @@ package com.example.examplemod.item;
 
 import com.example.examplemod.ExampleMod;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,16 +14,26 @@ public class ItemMod {
 
     public static final RegistryObject<Item> CHINESIUM_DUST = ITEMS.register("chinesium_dust",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> POWER_STAFF = ITEMS.register("power_staff",
-            () -> new Item(new Item.Properties()));
+            () -> new PowerStaff(Tiers.WOOD, 1, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> TELEPORTATION_STAFF = ITEMS.register("teleportation_staff",
+            () -> new TeleportationStaff(Tiers.WOOD, 1, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> FIRE_STAFF = ITEMS.register("fire_staff",
+            () -> new FireStaff(Tiers.WOOD, 1, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> SPEED_STAFF = ITEMS.register("speed_staff",
+            () -> new SpeedStaff(Tiers.WOOD, 1, -2.4F, new Item.Properties()));
+
+
     public static final RegistryObject<Item> POWER_BALL = ITEMS.register("power_ball",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TELEPORTATION_ORB = ITEMS.register("teleportation_orb",
-            () -> new Item(new Item.Properties()));
+            () -> new TeleportationOrb(new Item.Properties()));
     public static final RegistryObject<Item> FIRE_ORB = ITEMS.register("fire_orb",
-            () -> new Item(new Item.Properties()));
+            () -> new FireOrb(new Item.Properties()));
     public static final RegistryObject<Item> SPEED_ORB = ITEMS.register("speed_orb",
-            () -> new Item(new Item.Properties()));
+            () -> new SpeedOrb(new Item.Properties()));
+
     public static final RegistryObject<Item> LIGHTNING_FUR = ITEMS.register("lightning_fur",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FIRE_ESSENCE = ITEMS.register("fire_essence",

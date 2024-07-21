@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:fire_orb"
+    },
+    {
+      "item": "examplemod:power_staff"
+    }
+  ],
+  "result": {
+    "item": "examplemod:fire_staff",
+    "count": 1
+  }
+}

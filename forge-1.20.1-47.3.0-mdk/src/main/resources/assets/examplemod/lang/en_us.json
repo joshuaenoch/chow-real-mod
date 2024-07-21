@@ -1,6 +1,10 @@
 {
   "item.examplemod.chinesium_dust": "Chinesium Dust",
+
   "item.examplemod.power_staff":  "Uncharged Staff",
+  "item.examplemod.teleportation_staff": "Teleportation Staff",
+  "item.examplemod.speed_staff": "Speed Staff",
+  "item.examplemod.fire_staff": "Fire Staff",
 
   "item.examplemod.power_ball":  "Uncharged Orb",
   "item.examplemod.teleportation_orb": "Teleportation Orb",

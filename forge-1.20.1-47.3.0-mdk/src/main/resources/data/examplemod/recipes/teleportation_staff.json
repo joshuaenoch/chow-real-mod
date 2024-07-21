@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "examplemod:teleportation_orb"
+    },
+    {
+      "item": "examplemod:power_staff"
+    }
+  ],
+  "result": {
+    "item": "examplemod:teleportation_staff",
+    "count": 1
+  }
+}
