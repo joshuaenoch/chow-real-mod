@@ -16,7 +16,8 @@
   "item.examplemod.guitar_string": "Guitar String",
 
 
-  "block.examplemod.shifted_oak": "Shifted Oak Log",
+  "block.examplemod.shifted_oak_log": "Shifted Oak Log",
+  "block.examplemod.shifted_sapling": "Shifted Sapling",
 
   "creativetab.example_tab": "Example Tab"
 }

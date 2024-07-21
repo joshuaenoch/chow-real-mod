@@ -6,7 +6,7 @@
       "y": 90
     },
     "axis=y": {
-      "model": "examplemod:block/shifted_oak"
+      "model": "examplemod:block/shifted_oak_log"
     },
     "axis=z": {
       "model": "examplemod:block/shifted_oak_sides",

@@ -36,6 +36,7 @@ public class TabMod {
                         pOutput.accept(ItemMod.GUITAR_STRING.get());
 
                         pOutput.accept(BlockMod.SHIFTED_OAK.get());
+                        pOutput.accept(BlockMod.SHIFTED_SAPLING.get());
 
                     })
                     .build());
